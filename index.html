@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Family Finder Privacy Policy</title>
+  <meta name="description" content="Family Finder privacy policy in English, German, Spanish, French, Italian and Simplified Chinese." />
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --card: #ffffff;
+      --text: #172033;
+      --muted: #64748b;
+      --line: #dbe3ef;
+      --primary: #2563eb;
+      --primary-dark: #1e3a8a;
+      --soft: #eef4ff;
+      --shadow: 0 18px 48px rgba(15, 23, 42, 0.12);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    a { color: var(--primary); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header {
+      background: linear-gradient(135deg, #1d4ed8, #312e81);
+      color: #fff;
+      padding: 56px 20px 72px;
+      text-align: center;
+    }
+    header h1 { margin: 0; font-size: clamp(2rem, 4vw, 3rem); line-height: 1.15; }
+    header p { max-width: 820px; margin: 16px auto 0; color: rgba(255,255,255,.88); }
+    main { max-width: 1060px; margin: -48px auto 56px; padding: 0 16px; }
+    .card { background: var(--card); border-radius: 22px; box-shadow: var(--shadow); overflow: hidden; }
+    .toolbar {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      display: flex;
+      gap: 14px;
+      align-items: center;
+      justify-content: space-between;
+      padding: 18px 22px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(255,255,255,.96);
+      backdrop-filter: blur(10px);
+    }
+    select {
+      min-width: 240px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 11px 14px;
+      background: #fff;
+      color: var(--text);
+      font: inherit;
+    }
+    .content { padding: 32px; }
+    article[hidden] { display: none; }
+    h2 {
+      margin: 34px 0 12px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid var(--line);
+      font-size: 1.45rem;
+      color: var(--primary-dark);
+    }
+    h2:first-child { margin-top: 0; }
+    p { margin: 10px 0; }
+    ul { margin: 10px 0 10px 22px; padding: 0; }
+    li + li { margin-top: 6px; }
+    .notice {
+      margin: 18px 0 26px;
+      padding: 16px 18px;
+      border: 1px solid #bfdbfe;
+      border-radius: 14px;
+      background: var(--soft);
+    }
+    .summary {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+      margin: 20px 0 28px;
+    }
+    .summary div {
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 16px;
+      background: #f8fafc;
+    }
+    .summary strong { display: block; margin-bottom: 6px; color: var(--primary-dark); }
+    table { width: 100%; border-collapse: collapse; margin: 16px 0 24px; font-size: .96rem; }
+    th, td { border: 1px solid var(--line); padding: 13px 14px; vertical-align: top; text-align: left; }
+    th { background: #f1f5f9; color: #243044; }
+    footer { padding: 24px 32px 34px; color: var(--muted); text-align: center; border-top: 1px solid var(--line); font-size: .92rem; }
+    @media (max-width: 720px) {
+      header { padding: 42px 16px 64px; }
+      .toolbar { align-items: stretch; flex-direction: column; }
+      select { width: 100%; min-width: 0; }
+      .content { padding: 24px 18px; }
+      table, thead, tbody, tr, th, td { display: block; }
+      thead { display: none; }
+      tr { border: 1px solid var(--line); border-radius: 12px; margin-bottom: 12px; overflow: hidden; }
+      td { border: none; border-bottom: 1px solid var(--line); }
+      td:last-child { border-bottom: none; }
+      td::before { content: attr(data-label); display: block; margin-bottom: 4px; font-weight: 700; color: var(--primary-dark); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Family Finder Privacy Policy</h1>
+    <p>Privacy policy for the Family Finder mobile app and related services.</p>
+    <p>Last updated: June 1, 2026</p>
+  </header>
+
+  <main>
+    <div class="card">
+      <div class="toolbar" aria-label="Language selector">
+        <strong id="language-label">Language / Sprache / Idioma / Langue / Lingua / 语言</strong>
+        <select id="languageSelect" aria-labelledby="language-label">
+          <option value="en">English</option>
+          <option value="de">Deutsch</option>
+          <option value="es">Español</option>
+          <option value="fr">Français</option>
+          <option value="it">Italiano</option>
+          <option value="zh">简体中文</option>
+        </select>
+      </div>
+
+      <div class="content">
+        <article data-lang="en" lang="en">
+          <h2>1. Overview</h2>
+          <p>Family Finder helps family members and trusted contacts share locations, request location updates, receive notifications, and stay connected on a map. This policy explains what information we collect, how we use it, how it is shared, and what choices you have.</p>
+          <p>This policy applies to the Family Finder mobile application for iOS and Android and to related backend services. The iOS Bundle ID is <strong>com.zetavue.familyfinder</strong>. The Android package name is <strong>com.home22.famliyfinder</strong>.</p>
+          <div class="notice"><strong>Important:</strong> Family Finder is not intended for secret tracking. Location sharing should only be used with the knowledge and consent of the people involved.</div>
+          <div class="summary">
+            <div><strong>Core data</strong> Location, account, device, group membership, notification tokens, and support information.</div>
+            <div><strong>Purpose</strong> Location sharing, family groups, location requests, notifications, security, support, and reliability.</div>
+            <div><strong>Sharing</strong> We do not sell personal data. Location is shared only with connected users you choose and service providers needed to run the app.</div>
+            <div><strong>Control</strong> You can manage permissions, stop sharing, leave groups, delete local data, or contact us for deletion requests.</div>
+          </div>
+
+          <h2>2. Data We Collect</h2>
+          <table>
+            <thead><tr><th>Category</th><th>Examples</th><th>Purpose</th></tr></thead>
+            <tbody>
+              <tr><td data-label="Category">Location data</td><td data-label="Examples">Approximate or precise coordinates, accuracy, timestamp, movement-related metadata, and location source.</td><td data-label="Purpose">To show your location to approved family members or trusted contacts, respond to requests, and support background sharing when enabled.</td></tr>
+              <tr><td data-label="Category">Account data</td><td data-label="Examples">Email address, display name, Firebase user ID, authentication state, and password reset or verification status.</td><td data-label="Purpose">To create and secure your account, sign you in, recover your account, and associate devices with your profile.</td></tr>
+              <tr><td data-label="Category">Family group data</td><td data-label="Examples">Group IDs, join codes, member IDs, device nicknames, membership status, and group settings.</td><td data-label="Purpose">To connect approved members, manage groups, control who can request or view location updates, and prevent unauthorized access.</td></tr>
+              <tr><td data-label="Category">Device and app data</td><td data-label="Examples">App version, operating system, device model, language preference, notification status, Firebase Cloud Messaging token, and diagnostic state.</td><td data-label="Purpose">To deliver notifications, improve reliability, diagnose problems, prevent abuse, and provide localized content.</td></tr>
+              <tr><td data-label="Category">Contacts you enter manually</td><td data-label="Examples">Names, phone numbers, or nicknames that you add inside the app.</td><td data-label="Purpose">To help you identify family members or trusted contacts. We do not read your address book unless a future feature clearly requests permission.</td></tr>
+              <tr><td data-label="Category">Support information</td><td data-label="Examples">Messages you send to us, screenshots, logs, and other details you voluntarily provide.</td><td data-label="Purpose">To answer questions, investigate bugs, and improve the service.</td></tr>
+            </tbody>
+          </table>
+
+          <h2>3. How We Use Data</h2>
+          <ul>
+            <li>Provide real-time or recent location sharing between approved users.</li>
+            <li>Send and receive location requests, responses, alerts, and push notifications.</li>
+            <li>Create and manage family groups, join codes, and trusted contact relationships.</li>
+            <li>Operate authentication, security, anti-abuse checks, and account recovery.</li>
+            <li>Improve app stability, localization, compatibility, and customer support.</li>
+            <li>Comply with legal obligations and respond to valid legal requests where required.</li>
+          </ul>
+          <p>We do not sell your personal information, use precise location for advertising, or share your location with advertising networks.</p>
+
+          <h2>4. Permissions</h2>
+          <table>
+            <thead><tr><th>Permission</th><th>Use</th><th>Your control</th></tr></thead>
+            <tbody>
+              <tr><td data-label="Permission">Location</td><td data-label="Use">Used for map display, location sharing, location requests, and background sharing when enabled.</td><td data-label="Your control">You can allow only while using the app, allow always, or revoke permission in system settings.</td></tr>
+              <tr><td data-label="Permission">Notifications</td><td data-label="Use">Used for location requests, responses, account or group alerts, and service status messages.</td><td data-label="Your control">You can disable notifications in the app or system settings.</td></tr>
+              <tr><td data-label="Permission">Background activity</td><td data-label="Use">Used to keep location sharing or location request handling available when the app is not open, subject to system limits.</td><td data-label="Your control">You can disable background location sharing and revoke location permissions at any time.</td></tr>
+              <tr><td data-label="Permission">Network access</td><td data-label="Use">Used to sync with Firebase, render maps, and deliver notifications.</td><td data-label="Your control">Required for online features.</td></tr>
+              <tr><td data-label="Permission">SMS, Android only where available</td><td data-label="Use">If an Android version offers optional SMS fallback, it is used only after you enable it and grant permission.</td><td data-label="Your control">Optional and can be disabled or revoked. This does not apply to the iOS App Store version unless explicitly offered by the system and app.</td></tr>
+            </tbody>
+          </table>
+
+          <h2>5. Service Providers and Sharing</h2>
+          <p>We use trusted third-party services to operate the app, including Google Firebase for authentication, database storage, cloud messaging, and related infrastructure, and Google Maps services for map display. These providers process data on our behalf according to their terms and privacy commitments.</p>
+          <p>Your location may be visible to family members or trusted contacts in the groups you join or create. You should only invite people you trust and only share location with consent.</p>
+
+          <h2>6. Storage and Retention</h2>
+          <ul>
+            <li>Location requests, responses, and temporary location records are retained only as long as needed to provide the service and are intended to be deleted or overwritten according to app and backend retention settings.</li>
+            <li>Group and account records are kept while your account or group membership remains active.</li>
+            <li>Local app settings and cached data remain on your device until you delete them, sign out, reset the app, or uninstall it.</li>
+            <li>Support messages and voluntary diagnostic materials are kept only as long as needed to resolve the issue or meet legal obligations.</li>
+          </ul>
+
+          <h2>7. Your Choices and Rights</h2>
+          <ul>
+            <li>Stop or pause location sharing inside the app where available.</li>
+            <li>Change or revoke location, notification, and background permissions in system settings.</li>
+            <li>Leave a family group or remove members if you manage the group.</li>
+            <li>Delete local history or app data where the app provides controls.</li>
+            <li>Contact us to request access, correction, export, or deletion of data associated with your account, subject to identity verification and applicable law.</li>
+          </ul>
+
+          <h2>8. Children, Security, and International Transfers</h2>
+          <p>Family Finder may be used by families, but it is not designed for secret monitoring of children or any other person. Parents or guardians are responsible for obtaining any required consent before inviting minors.</p>
+          <p>We use reasonable technical and organizational measures such as encrypted network transport, Firebase security controls, access limitation, and data minimization. Because we use global cloud providers, data may be processed in countries other than your own.</p>
+
+          <h2>9. Changes and Contact</h2>
+          <p>We may update this policy when features, legal requirements, or our data practices change. The latest version will be published on this page with an updated date.</p>
+          <p>For privacy questions or requests, contact: <a href="mailto:zetavue@gmail.com">zetavue@gmail.com</a></p>
+        </article>
+
+        <article data-lang="de" lang="de" hidden>
+          <h2>1. Überblick</h2>
+          <p>Family Finder hilft Familienmitgliedern und vertrauenswürdigen Kontakten, Standorte zu teilen, Standortaktualisierungen anzufordern, Benachrichtigungen zu erhalten und über eine Karte in Verbindung zu bleiben. Diese Richtlinie erklärt, welche Informationen wir erfassen, wie wir sie nutzen, mit wem sie geteilt werden und welche Wahlmöglichkeiten Sie haben.</p>
+          <p>Diese Richtlinie gilt für die mobile Family Finder App für iOS und Android sowie für die zugehörigen Backend-Dienste. Die iOS Bundle ID lautet <strong>com.zetavue.familyfinder</strong>. Der Android-Paketname lautet <strong>com.home22.famliyfinder</strong>.</p>
+          <div class="notice"><strong>Wichtig:</strong> Family Finder ist nicht für heimliches Tracking gedacht. Standortfreigabe sollte nur mit Wissen und Zustimmung der beteiligten Personen erfolgen.</div>
+          <div class="summary">
+            <div><strong>Kern-Daten</strong> Standort, Konto, Gerät, Gruppenmitgliedschaft, Benachrichtigungs-Token und Supportinformationen.</div>
+            <div><strong>Zweck</strong> Standortfreigabe, Familiengruppen, Standortanfragen, Benachrichtigungen, Sicherheit, Support und Zuverlässigkeit.</div>
+            <div><strong>Weitergabe</strong> Wir verkaufen keine personenbezogenen Daten. Standortdaten werden nur mit von Ihnen ausgewählten verbundenen Nutzern und notwendigen Dienstleistern geteilt.</div>
+            <div><strong>Kontrolle</strong> Sie können Berechtigungen verwalten, Teilen stoppen, Gruppen verlassen, lokale Daten löschen oder uns für Löschanfragen kontaktieren.</div>
+          </div>
+          <h2>2. Welche Daten wir erfassen</h2>
+          <table><thead><tr><th>Kategorie</th><th>Beispiele</th><th>Zweck</th></tr></thead><tbody>
+            <tr><td data-label="Kategorie">Standortdaten</td><td data-label="Beispiele">Ungefährer oder genauer Standort, Genauigkeit, Zeitstempel, Bewegungsmetadaten und Standortquelle.</td><td data-label="Zweck">Anzeige Ihres Standorts für freigegebene Familienmitglieder oder vertrauenswürdige Kontakte, Beantwortung von Anfragen und Hintergrundfreigabe, wenn aktiviert.</td></tr>
+            <tr><td data-label="Kategorie">Kontodaten</td><td data-label="Beispiele">E-Mail-Adresse, Anzeigename, Firebase-Nutzer-ID, Authentifizierungsstatus sowie Passwortzurücksetzung oder Verifizierungsstatus.</td><td data-label="Zweck">Kontoerstellung, Anmeldung, Wiederherstellung und Zuordnung Ihrer Geräte zu Ihrem Profil.</td></tr>
+            <tr><td data-label="Kategorie">Familiengruppendaten</td><td data-label="Beispiele">Gruppen-IDs, Beitrittscodes, Mitglieds-IDs, Gerätenamen, Mitgliedschaftsstatus und Gruppeneinstellungen.</td><td data-label="Zweck">Verbindung freigegebener Mitglieder, Gruppenverwaltung, Kontrolle von Standortanfragen und Schutz vor unbefugtem Zugriff.</td></tr>
+            <tr><td data-label="Kategorie">Geräte- und App-Daten</td><td data-label="Beispiele">App-Version, Betriebssystem, Gerätemodell, Spracheinstellung, Benachrichtigungsstatus, Firebase Cloud Messaging Token und Diagnosestatus.</td><td data-label="Zweck">Benachrichtigungen, Zuverlässigkeit, Fehlerdiagnose, Missbrauchsschutz und Lokalisierung.</td></tr>
+            <tr><td data-label="Kategorie">Manuell eingegebene Kontakte</td><td data-label="Beispiele">Namen, Telefonnummern oder Spitznamen, die Sie in der App hinzufügen.</td><td data-label="Zweck">Erkennung von Familienmitgliedern oder vertrauenswürdigen Kontakten. Wir lesen Ihr Adressbuch nicht, sofern eine künftige Funktion nicht ausdrücklich um Erlaubnis bittet.</td></tr>
+            <tr><td data-label="Kategorie">Supportinformationen</td><td data-label="Beispiele">Nachrichten, Screenshots, Protokolle und andere freiwillig bereitgestellte Angaben.</td><td data-label="Zweck">Beantwortung von Fragen, Fehleranalyse und Verbesserung des Dienstes.</td></tr>
+          </tbody></table>
+          <h2>3. Nutzung, Berechtigungen und Weitergabe</h2>
+          <ul><li>Wir nutzen Daten zur Standortfreigabe, für Standortanfragen, Push-Benachrichtigungen, Gruppenverwaltung, Sicherheit, Support und gesetzliche Pflichten.</li><li>Standort-, Benachrichtigungs-, Hintergrund- und Netzwerkberechtigungen werden nur für die jeweiligen App-Funktionen genutzt und können in den Systemeinstellungen verwaltet werden.</li><li>Ein optionaler SMS-Fallback betrifft nur Android-Versionen, sofern verfügbar und von Ihnen aktiviert; er gilt nicht für die iOS App Store Version, sofern nicht ausdrücklich angeboten.</li><li>Wir verkaufen keine personenbezogenen Daten und verwenden präzise Standortdaten nicht für Werbung.</li><li>Wir nutzen Google Firebase und Google Maps zur Bereitstellung der App. Ihr Standort ist nur für autorisierte Gruppenmitglieder oder vertrauenswürdige Kontakte sichtbar.</li></ul>
+          <h2>4. Speicherung, Rechte und Kontakt</h2>
+          <ul><li>Daten werden nur so lange gespeichert, wie sie für die Funktion, Sicherheit, Support oder gesetzliche Pflichten erforderlich sind.</li><li>Sie können Standortfreigabe pausieren, Berechtigungen widerrufen, Gruppen verlassen, lokale Daten löschen oder Zugriff, Berichtigung, Export oder Löschung beantragen.</li><li>Family Finder ist nicht für heimliche Überwachung von Kindern oder anderen Personen gedacht. Erziehungsberechtigte sind für erforderliche Einwilligungen verantwortlich.</li><li>Daten können durch globale Cloud-Anbieter in anderen Ländern verarbeitet werden; wir nutzen angemessene Schutzmaßnahmen.</li></ul>
+          <p>Kontakt für Datenschutzfragen: <a href="mailto:zetavue@gmail.com">zetavue@gmail.com</a></p>
+        </article>
+
+        <article data-lang="es" lang="es" hidden>
+          <h2>1. Resumen</h2>
+          <p>Family Finder ayuda a familiares y contactos de confianza a compartir ubicaciones, solicitar actualizaciones, recibir notificaciones y mantenerse conectados en un mapa. Esta política explica qué información recopilamos, cómo la usamos, con quién se comparte y qué opciones tienes.</p>
+          <p>Esta política se aplica a la aplicación móvil Family Finder para iOS y Android y a los servicios backend relacionados. El Bundle ID de iOS es <strong>com.zetavue.familyfinder</strong>. El nombre del paquete Android es <strong>com.home22.famliyfinder</strong>.</p>
+          <div class="notice"><strong>Importante:</strong> Family Finder no está diseñado para rastreo secreto. La ubicación solo debe compartirse con el conocimiento y consentimiento de las personas involucradas.</div>
+          <div class="summary"><div><strong>Datos</strong> Ubicación, cuenta, dispositivo, grupo, tokens de notificación y soporte.</div><div><strong>Finalidad</strong> Compartir ubicación, grupos, solicitudes, notificaciones, seguridad y soporte.</div><div><strong>Compartición</strong> No vendemos datos personales. La ubicación se comparte solo con usuarios conectados que eliges y proveedores necesarios.</div><div><strong>Control</strong> Puedes gestionar permisos, detener el uso compartido, salir de grupos, borrar datos locales o solicitar eliminación.</div></div>
+          <h2>2. Datos que recopilamos</h2>
+          <table><thead><tr><th>Categoría</th><th>Ejemplos</th><th>Finalidad</th></tr></thead><tbody>
+            <tr><td data-label="Categoría">Ubicación</td><td data-label="Ejemplos">Coordenadas aproximadas o precisas, precisión, fecha y hora, metadatos de movimiento y fuente.</td><td data-label="Finalidad">Mostrar tu ubicación a contactos autorizados, responder solicitudes y permitir uso en segundo plano si lo activas.</td></tr>
+            <tr><td data-label="Categoría">Cuenta</td><td data-label="Ejemplos">Correo electrónico, nombre, ID de Firebase, estado de autenticación y verificación.</td><td data-label="Finalidad">Crear y proteger tu cuenta, iniciar sesión, recuperar la cuenta y asociar dispositivos.</td></tr>
+            <tr><td data-label="Categoría">Grupo familiar</td><td data-label="Ejemplos">ID de grupo, códigos de invitación, miembros, nombres de dispositivo y ajustes.</td><td data-label="Finalidad">Gestionar grupos, relaciones de confianza y acceso autorizado.</td></tr>
+            <tr><td data-label="Categoría">Dispositivo y app</td><td data-label="Ejemplos">Versión, sistema operativo, modelo, idioma, estado de notificaciones y token FCM.</td><td data-label="Finalidad">Enviar notificaciones, mejorar fiabilidad, diagnosticar problemas y localizar contenido.</td></tr>
+            <tr><td data-label="Categoría">Contactos manuales</td><td data-label="Ejemplos">Nombres, teléfonos o apodos que añades en la app.</td><td data-label="Finalidad">Identificar familiares o contactos de confianza. No leemos tu libreta de direcciones salvo permiso claro.</td></tr>
+            <tr><td data-label="Categoría">Soporte</td><td data-label="Ejemplos">Mensajes, capturas y registros enviados voluntariamente.</td><td data-label="Finalidad">Responder preguntas, investigar errores y mejorar el servicio.</td></tr>
+          </tbody></table>
+          <h2>3. Uso, permisos y compartición</h2>
+          <ul><li>Usamos datos para ubicación compartida, solicitudes, notificaciones push, grupos, seguridad, soporte y obligaciones legales.</li><li>Los permisos de ubicación, notificaciones, actividad en segundo plano y red se usan solo para las funciones correspondientes y pueden gestionarse en el sistema.</li><li>Un respaldo opcional por SMS solo aplica a Android cuando esté disponible y activado; no aplica a la versión iOS de App Store salvo que se ofrezca explícitamente.</li><li>No vendemos datos personales ni usamos ubicación precisa para publicidad.</li><li>Usamos Google Firebase y Google Maps para operar la app. Tu ubicación solo es visible para miembros autorizados o contactos de confianza.</li></ul>
+          <h2>4. Conservación, derechos y contacto</h2>
+          <ul><li>Conservamos datos solo durante el tiempo necesario para la función, seguridad, soporte u obligaciones legales.</li><li>Puedes pausar el uso compartido, revocar permisos, salir de grupos, borrar datos locales o solicitar acceso, corrección, exportación o eliminación.</li><li>Family Finder no está diseñado para vigilancia secreta de menores ni de ninguna persona. Padres o tutores son responsables del consentimiento necesario.</li><li>Los datos pueden procesarse en otros países mediante proveedores globales de nube, con salvaguardas adecuadas.</li></ul>
+          <p>Contacto para privacidad: <a href="mailto:zetavue@gmail.com">zetavue@gmail.com</a></p>
+        </article>
+
+        <article data-lang="fr" lang="fr" hidden>
+          <h2>1. Présentation</h2>
+          <p>Family Finder aide les membres d’une famille et les contacts de confiance à partager leur position, demander des mises à jour, recevoir des notifications et rester connectés sur une carte. Cette politique explique quelles informations nous collectons, comment nous les utilisons, avec qui elles sont partagées et quels choix vous avez.</p>
+          <p>Cette politique s’applique à l’application mobile Family Finder pour iOS et Android ainsi qu’aux services backend associés. Le Bundle ID iOS est <strong>com.zetavue.familyfinder</strong>. Le nom du package Android est <strong>com.home22.famliyfinder</strong>.</p>
+          <div class="notice"><strong>Important :</strong> Family Finder n’est pas destiné au suivi secret. Le partage de position doit être utilisé uniquement avec la connaissance et le consentement des personnes concernées.</div>
+          <div class="summary"><div><strong>Données</strong> Position, compte, appareil, groupe, jetons de notification et assistance.</div><div><strong>Finalité</strong> Partage de position, groupes, demandes, notifications, sécurité et assistance.</div><div><strong>Partage</strong> Nous ne vendons pas les données personnelles. La position est partagée uniquement avec les utilisateurs choisis et les prestataires nécessaires.</div><div><strong>Contrôle</strong> Vous pouvez gérer les autorisations, arrêter le partage, quitter des groupes, supprimer des données locales ou demander une suppression.</div></div>
+          <h2>2. Données collectées</h2>
+          <table><thead><tr><th>Catégorie</th><th>Exemples</th><th>Finalité</th></tr></thead><tbody>
+            <tr><td data-label="Catégorie">Localisation</td><td data-label="Exemples">Coordonnées approximatives ou précises, précision, horodatage, métadonnées de mouvement et source.</td><td data-label="Finalité">Afficher votre position aux contacts autorisés, répondre aux demandes et permettre le partage en arrière-plan si activé.</td></tr>
+            <tr><td data-label="Catégorie">Compte</td><td data-label="Exemples">E-mail, nom affiché, ID Firebase, état d’authentification et vérification.</td><td data-label="Finalité">Créer et sécuriser votre compte, vous connecter, récupérer le compte et associer les appareils.</td></tr>
+            <tr><td data-label="Catégorie">Groupe familial</td><td data-label="Exemples">ID de groupe, codes d’invitation, membres, noms d’appareil et paramètres.</td><td data-label="Finalité">Gérer les groupes, les relations de confiance et l’accès autorisé.</td></tr>
+            <tr><td data-label="Catégorie">Appareil et application</td><td data-label="Exemples">Version, système, modèle, langue, état des notifications et jeton FCM.</td><td data-label="Finalité">Envoyer des notifications, améliorer la fiabilité, diagnostiquer les problèmes et localiser le contenu.</td></tr>
+            <tr><td data-label="Catégorie">Contacts manuels</td><td data-label="Exemples">Noms, numéros ou surnoms ajoutés dans l’app.</td><td data-label="Finalité">Identifier les proches ou contacts de confiance. Nous ne lisons pas votre carnet d’adresses sans autorisation claire.</td></tr>
+            <tr><td data-label="Catégorie">Assistance</td><td data-label="Exemples">Messages, captures et journaux fournis volontairement.</td><td data-label="Finalité">Répondre aux questions, analyser les bugs et améliorer le service.</td></tr>
+          </tbody></table>
+          <h2>3. Utilisation, autorisations et partage</h2>
+          <ul><li>Nous utilisons les données pour le partage de position, les demandes, les notifications push, les groupes, la sécurité, l’assistance et les obligations légales.</li><li>Les autorisations de localisation, notification, arrière-plan et réseau sont utilisées uniquement pour les fonctions correspondantes et peuvent être gérées dans le système.</li><li>Un secours SMS optionnel concerne uniquement Android lorsqu’il est disponible et activé ; il ne concerne pas la version iOS App Store sauf offre explicite.</li><li>Nous ne vendons pas les données personnelles et n’utilisons pas la position précise à des fins publicitaires.</li><li>Nous utilisons Google Firebase et Google Maps pour fournir l’app. Votre position est visible uniquement par les membres autorisés ou contacts de confiance.</li></ul>
+          <h2>4. Conservation, droits et contact</h2>
+          <ul><li>Nous conservons les données uniquement le temps nécessaire à la fonction, la sécurité, l’assistance ou les obligations légales.</li><li>Vous pouvez suspendre le partage, révoquer les autorisations, quitter des groupes, supprimer des données locales ou demander accès, correction, export ou suppression.</li><li>Family Finder n’est pas conçu pour surveiller secrètement des enfants ou toute autre personne. Les parents ou tuteurs sont responsables du consentement requis.</li><li>Les données peuvent être traitées dans d’autres pays via des fournisseurs cloud mondiaux, avec des garanties appropriées.</li></ul>
+          <p>Contact confidentialité : <a href="mailto:zetavue@gmail.com">zetavue@gmail.com</a></p>
+        </article>
+
+        <article data-lang="it" lang="it" hidden>
+          <h2>1. Panoramica</h2>
+          <p>Family Finder aiuta familiari e contatti fidati a condividere la posizione, richiedere aggiornamenti, ricevere notifiche e restare connessi su una mappa. Questa informativa spiega quali informazioni raccogliamo, come le usiamo, con chi vengono condivise e quali scelte hai.</p>
+          <p>Questa informativa si applica all’app mobile Family Finder per iOS e Android e ai relativi servizi backend. Il Bundle ID iOS è <strong>com.zetavue.familyfinder</strong>. Il nome del pacchetto Android è <strong>com.home22.famliyfinder</strong>.</p>
+          <div class="notice"><strong>Importante:</strong> Family Finder non è pensata per il tracciamento segreto. La condivisione della posizione deve avvenire solo con conoscenza e consenso delle persone coinvolte.</div>
+          <div class="summary"><div><strong>Dati</strong> Posizione, account, dispositivo, gruppo, token notifiche e supporto.</div><div><strong>Finalità</strong> Condivisione posizione, gruppi, richieste, notifiche, sicurezza e supporto.</div><div><strong>Condivisione</strong> Non vendiamo dati personali. La posizione è condivisa solo con utenti scelti da te e fornitori necessari.</div><div><strong>Controllo</strong> Puoi gestire permessi, fermare condivisione, uscire dai gruppi, eliminare dati locali o richiedere cancellazione.</div></div>
+          <h2>2. Dati raccolti</h2>
+          <table><thead><tr><th>Categoria</th><th>Esempi</th><th>Finalità</th></tr></thead><tbody>
+            <tr><td data-label="Categoria">Posizione</td><td data-label="Esempi">Coordinate approssimative o precise, accuratezza, timestamp, metadati movimento e fonte.</td><td data-label="Finalità">Mostrare la posizione a contatti autorizzati, rispondere a richieste e supportare background se attivato.</td></tr>
+            <tr><td data-label="Categoria">Account</td><td data-label="Esempi">Email, nome, ID Firebase, stato autenticazione e verifica.</td><td data-label="Finalità">Creare e proteggere l’account, accedere, recuperare l’account e associare dispositivi.</td></tr>
+            <tr><td data-label="Categoria">Gruppo familiare</td><td data-label="Esempi">ID gruppo, codici invito, membri, nomi dispositivo e impostazioni.</td><td data-label="Finalità">Gestire gruppi, relazioni fidate e accesso autorizzato.</td></tr>
+            <tr><td data-label="Categoria">Dispositivo e app</td><td data-label="Esempi">Versione, sistema, modello, lingua, stato notifiche e token FCM.</td><td data-label="Finalità">Inviare notifiche, migliorare affidabilità, diagnosticare problemi e localizzare contenuti.</td></tr>
+            <tr><td data-label="Categoria">Contatti manuali</td><td data-label="Esempi">Nomi, numeri o soprannomi aggiunti nell’app.</td><td data-label="Finalità">Identificare familiari o contatti fidati. Non leggiamo la rubrica senza permesso chiaro.</td></tr>
+            <tr><td data-label="Categoria">Supporto</td><td data-label="Esempi">Messaggi, screenshot e log forniti volontariamente.</td><td data-label="Finalità">Rispondere a domande, analizzare bug e migliorare il servizio.</td></tr>
+          </tbody></table>
+          <h2>3. Uso, permessi e condivisione</h2>
+          <ul><li>Usiamo dati per posizione condivisa, richieste, notifiche push, gruppi, sicurezza, supporto e obblighi legali.</li><li>I permessi posizione, notifiche, background e rete sono usati solo per le relative funzioni e possono essere gestiti nel sistema.</li><li>Un backup SMS opzionale riguarda solo Android quando disponibile e attivato; non riguarda la versione iOS App Store salvo offerta esplicita.</li><li>Non vendiamo dati personali e non usiamo la posizione precisa per pubblicità.</li><li>Usiamo Google Firebase e Google Maps per fornire l’app. La tua posizione è visibile solo a membri autorizzati o contatti fidati.</li></ul>
+          <h2>4. Conservazione, diritti e contatto</h2>
+          <ul><li>Conserviamo dati solo per il tempo necessario a funzione, sicurezza, supporto o obblighi legali.</li><li>Puoi sospendere condivisione, revocare permessi, uscire da gruppi, cancellare dati locali o richiedere accesso, correzione, esportazione o eliminazione.</li><li>Family Finder non è progettata per monitoraggio segreto di minori o altre persone. Genitori o tutori sono responsabili del consenso richiesto.</li><li>I dati possono essere trattati in altri paesi tramite provider cloud globali, con garanzie adeguate.</li></ul>
+          <p>Contatto privacy: <a href="mailto:zetavue@gmail.com">zetavue@gmail.com</a></p>
+        </article>
+
+        <article data-lang="zh" lang="zh-Hans" hidden>
+          <h2>1. 概述</h2>
+          <p>Family Finder 帮助家人和可信联系人共享位置、请求位置更新、接收通知，并通过地图保持联系。本隐私政策说明我们收集哪些信息、如何使用、如何共享，以及您可以如何控制这些信息。</p>
+          <p>本政策适用于 Family Finder iOS 和 Android 移动应用及相关后台服务。iOS Bundle ID 为 <strong>com.zetavue.familyfinder</strong>。Android 包名为 <strong>com.home22.famliyfinder</strong>。</p>
+          <div class="notice"><strong>重要说明：</strong>Family Finder 不用于秘密跟踪。位置共享应仅在相关人员知情并同意的情况下使用。</div>
+          <div class="summary"><div><strong>核心数据</strong> 位置信息、账号信息、设备信息、家庭组成员关系、通知令牌和客服支持信息。</div><div><strong>使用目的</strong> 位置共享、家庭组、位置请求、推送通知、安全保护、客服支持和应用可靠性。</div><div><strong>共享情况</strong> 我们不会出售个人数据。位置信息仅与您选择连接的用户以及运行应用所需的服务提供商共享。</div><div><strong>用户控制</strong> 您可以管理权限、停止共享、退出群组、删除本地数据，或联系我们请求删除相关数据。</div></div>
+          <h2>2. 我们收集的数据</h2>
+          <table><thead><tr><th>类别</th><th>示例</th><th>用途</th></tr></thead><tbody>
+            <tr><td data-label="类别">位置数据</td><td data-label="示例">近似或精确坐标、定位精度、时间戳、运动相关元数据和位置来源。</td><td data-label="用途">向您授权的家人或可信联系人显示位置，响应位置请求，并在您启用时支持后台位置共享。</td></tr>
+            <tr><td data-label="类别">账号数据</td><td data-label="示例">电子邮箱、显示名称、Firebase 用户 ID、登录状态、密码重置或邮箱验证状态。</td><td data-label="用途">创建和保护账号、登录、账号恢复，并将您的设备与个人资料关联。</td></tr>
+            <tr><td data-label="类别">家庭组数据</td><td data-label="示例">群组 ID、加入码、成员 ID、设备昵称、成员状态和群组设置。</td><td data-label="用途">连接已授权成员、管理群组、控制谁可以请求或查看位置，并防止未经授权访问。</td></tr>
+            <tr><td data-label="类别">设备与应用数据</td><td data-label="示例">应用版本、操作系统、设备型号、语言偏好、通知状态、Firebase Cloud Messaging 令牌和诊断状态。</td><td data-label="用途">发送通知、提升可靠性、诊断问题、防止滥用并提供本地化内容。</td></tr>
+            <tr><td data-label="类别">您手动录入的联系人</td><td data-label="示例">您在应用内添加的姓名、电话号码或昵称。</td><td data-label="用途">帮助您识别家人或可信联系人。除非未来功能明确请求权限，我们不会读取系统通讯录。</td></tr>
+            <tr><td data-label="类别">支持信息</td><td data-label="示例">您主动发送给我们的消息、截图、日志和其他详情。</td><td data-label="用途">回复问题、排查错误并改进服务。</td></tr>
+          </tbody></table>
+          <h2>3. 使用、权限与共享</h2>
+          <ul><li>我们使用数据提供位置共享、位置请求、推送通知、家庭组管理、安全保护、客服支持和法律合规。</li><li>位置、通知、后台活动和网络权限仅用于对应功能，并可在系统设置中管理。</li><li>可选短信备用通道仅适用于支持该功能并由您主动启用的 Android 版本；除非系统和应用明确提供，iOS App Store 版本不适用此项。</li><li>我们不会出售个人数据，不会将精确位置用于广告。</li><li>我们使用 Google Firebase 和 Google Maps 提供应用服务。您的位置仅对已授权的家庭成员或可信联系人可见。</li></ul>
+          <h2>4. 保留、权利与联系</h2>
+          <ul><li>数据仅在实现功能、安全保护、客服支持或履行法律义务所需期间保留。</li><li>您可以暂停位置共享、撤销权限、退出群组、删除本地数据，或请求访问、更正、导出或删除相关数据。</li><li>Family Finder 不用于秘密监控儿童或任何其他人。父母或监护人负责取得必要同意。</li><li>数据可能通过全球云服务提供商在其他国家或地区处理，我们会采用适当保障措施。</li></ul>
+          <p>隐私问题或请求请联系：<a href="mailto:zetavue@gmail.com">zetavue@gmail.com</a></p>
+        </article>
+      </div>
+
+      <footer>© 2026 Family Finder. All rights reserved.</footer>
+    </div>
+  </main>
+
+  <script>
+    (function () {
+      const supported = ['en', 'de', 'es', 'fr', 'it', 'zh'];
+      const select = document.getElementById('languageSelect');
+      const articles = Array.from(document.querySelectorAll('article[data-lang]'));
+      function normalizeLanguage(value) {
+        if (!value) return 'en';
+        const lower = value.toLowerCase();
+        if (lower.startsWith('zh')) return 'zh';
+        const base = lower.split('-')[0];
+        return supported.includes(base) ? base : 'en';
+      }
+      function showLanguage(lang, updateHash) {
+        const normalized = normalizeLanguage(lang);
+        articles.forEach(article => { article.hidden = article.dataset.lang !== normalized; });
+        select.value = normalized;
+        document.documentElement.lang = normalized === 'zh' ? 'zh-Hans' : normalized;
+        try { localStorage.setItem('familyFinderPrivacyLanguage', normalized); } catch (e) {}
+        if (updateHash) history.replaceState(null, '', '#' + normalized);
+      }
+      select.addEventListener('change', function () { showLanguage(select.value, true); });
+      let storedLanguage = '';
+      try { storedLanguage = localStorage.getItem('familyFinderPrivacyLanguage') || ''; } catch (e) {}
+      const browserLanguage = normalizeLanguage(navigator.language || (navigator.languages && navigator.languages[0]));
+      const initialLanguage = location.hash ? normalizeLanguage(location.hash.replace('#', '')) : (storedLanguage || browserLanguage);
+      showLanguage(initialLanguage, false);
+    })();
+  </script>
+</body>
+</html>
